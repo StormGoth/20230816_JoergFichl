@@ -1,0 +1,7 @@
+# dateien reinkopert
+# neues feature anlegen und rein wechseln
+git checkout -b stupidFeature
+# Gruessen und Hello umschreiben
+# commit
+git commit -am 'Added lastname and bday'
+# wechsel zu main, merge, push
