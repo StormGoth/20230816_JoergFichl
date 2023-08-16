@@ -14,3 +14,8 @@ git merge stupidFeature
 git push
 git commit 'changes to lernkontrolle'
 git push
+# delete the stupid feature
+git branch -d stupidFeature
+# commit changes to lernkontrolle
+git commit -am 'remove stupid feature added to lernkontrolle'
+git push
