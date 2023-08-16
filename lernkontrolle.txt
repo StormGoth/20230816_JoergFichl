@@ -1,7 +1,16 @@
-# dateien reinkopert
+# dateien reinkopiert
+git add *
+git commit -am 'initial commit'
+git remote add origin https://github.com/StormGoth/20230816_JoergFichl.git
+git push
 # neues feature anlegen und rein wechseln
 git checkout -b stupidFeature
 # Gruessen und Hello umschreiben
 # commit
 git commit -am 'Added lastname and bday'
 # wechsel zu main, merge, push
+git checkout main
+git merge stupidFeature
+git push
+git commit 'changes to lernkontrolle'
+git push
